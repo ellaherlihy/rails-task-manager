@@ -1,15 +1,55 @@
-/*
- * This is a manifest file that'll be compiled into application.css, which will include all the files
- * listed below.
- *
- * Any CSS (and SCSS, if configured) file within this directory, lib/assets/stylesheets, or any plugin's
- * vendor/assets/stylesheets directory can be referenced here using a relative path.
- *
- * You're free to add application-wide styles to this file and they'll appear at the bottom of the
- * compiled file so the styles you add here take precedence over styles defined in any other CSS
- * files in this directory. Styles in this file should be added after the last require_* statement.
- * It is generally better to create a new file per style scope.
- *
- *= require_tree .
- *= require_self
- */
+body {
+  padding: 40px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-decoration: none;
+}
+
+.task-list a {
+  text-decoration: none;
+  color: black;
+}
+
+.task-list a:hover {
+  text-decoration: none;
+  color: rgb(228, 26, 144);
+}
+
+p {
+  text-decoration: none;
+  color: black;
+}
+
+.btn-design input {
+  background-color: rgb(185, 145, 190);
+  border: none;
+  color: white;
+  border-radius: 20px;
+  padding: 5px;
+  border: 5px;
+}
+
+button a {
+  text-decoration: none;
+  color: white;
+}
+
+button a:hover {
+  text-decoration: none;
+  color: white;
+}
+
+.new_task .form-inputs {
+  padding: 5px;
+}
+
+.form-inputs label {
+  padding: 5px;
+}
